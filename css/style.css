@@ -27,8 +27,15 @@ body {
 }
 
 ul {
+    padding-left: 0;
+    margin: 0;
     list-style: none;
 }
+ h1,h2,h3,h4{
+    margin: 0;
+ }
+
+ /*------------------ HEADER --------------------*/
 
 .header {
     background-color: #FFFFFF;
@@ -77,6 +84,8 @@ color: #434455;
     color: #4D5AE5;
 }
 
+/*------------------ HERO --------------------*/
+
 .hero {
     background-color: #2E2F42;
 }
@@ -113,6 +122,8 @@ color: #FFFFFF;
 .button:focus{
  color: #4D5AE5; 
 }
+
+/*------------------ FUTURES --------------------*/
 
 .futures {
 
@@ -155,6 +166,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/*------------------ SLIDES --------------------*/
+
 .slides {
     background-color: #E5E5E5;
 }
@@ -176,6 +189,8 @@ color: #2E2F42;
 }
 .slides-item {
 }
+
+/*------------------ TEAM --------------------*/
 
 .team {
     background-color: #F4F4FD;
@@ -232,6 +247,9 @@ letter-spacing: 0.02em;
 
 color: #434455;
 }
+
+/*------------------ FOOTER --------------------*/
+
 .footer {
     background-color: #2E2F42;
 }
