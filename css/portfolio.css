@@ -1,0 +1,173 @@
+body {
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+ h1,h2,h3,h4{
+    margin: 0;
+ }
+ .logo:hover,
+.logo:focus {
+    color: #4D5AE5;
+}
+
+:root {
+    --title-color: #2E2F42 ;
+    --text-color: #434455;
+    --lh-title:1.2;
+    --lh-header-text:1.5;
+
+}
+
+.title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: var(--lh-title);
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: var(--title-color,#2E2F42);
+}
+
+.text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: var(--text-color,#434455);
+}
+
+/*------------------ HEADER --------------------*/
+
+
+.header {
+    background-color: #FFFFFF;
+}
+.header-logo{
+    color: var(--title-color,#2E2F42);
+}
+.header-nav {
+}
+.header-list {
+}
+.heared-item {
+}
+.header-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: var(--title-color,#2E2F42);
+}
+
+.header-contacts{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: var(--text-color,#434455);
+}
+
+
+
+/*------------------ HERO --------------------*/
+.hero-focus:focus,
+.hero-focus:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.hero {
+    background-color: #FFFFFF;
+}
+.hero-list {
+}
+.hero-item {
+}
+
+.hero-link {
+    
+}
+
+/*------------------ APP --------------------*/
+.app{
+    background-color: #FFFFFF;}
+.app-list {
+}
+.app-item
+.app-title {
+}
+
+.app-text {
+}
+
+
+
+/*------------------ Marketing --------------------*/
+.marketing{
+    background-color: #FFFFFF;
+}
+.marketing-list {
+}
+.marketing-item {
+}
+.marketing-title {
+}
+
+.marketing-text {
+}
+
+
+/*------------------ DESIGN --------------------*/
+.design {
+    background-color: #FFFFFF;
+}
+.design-list {
+}
+.design-item {
+}
+.design-title {
+}
+
+.design-text {
+}
+
+
+/*------------------ FOOTER --------------------*/
+.footer{
+    background-color: #2E2F42;
+}
+.footer-link {
+}
+
+.footer-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* or 150% */
+letter-spacing: 0.02em;
+/* CORNFLOWER */
+color: #E7E9FC;
+
+}
