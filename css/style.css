@@ -1,0 +1,269 @@
+
+body {
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+--email:#434455;
+--title:#2E2F42;
+--bilyi:#FFFFFF;
+
+}
+.logo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0.66;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.logo:hover,
+.logo:focus {
+    color: #4D5AE5;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #FFFFFF;
+} 
+.header-nav {
+}
+.header-list {
+}
+.heared-item {
+}
+.header-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0.66;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+}
+.header-link:focus,
+.header-link:hover
+{
+color:#4D5AE5;
+}
+
+.header-contacts {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+color: #434455;
+}
+.header-contacts:hover,
+.header-contacts:focus{
+    color: #4D5AE5;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    /* Header 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 0.93;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.button {
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 0.84;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.button:focus{
+ color: #4D5AE5; 
+}
+
+.futures {
+
+background-color: #E5E5E5;
+}
+.futures-item {
+}
+.futures-caption1{
+
+}
+.futures-caption {
+    /* Header 3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0.83;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.futures-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.66;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
+
+.slides {
+    background-color: #E5E5E5;
+}
+.slides-caption {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 0.9;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+.slides-list {
+}
+.slides-item {
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+.our-team {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 0.9;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+
+}
+.team-list {
+}
+.team-item {
+}
+.team-caption {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0.83;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
+.team-title {
+    /* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.66;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0.66;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: #4D5AE5;
+}
+.footer-title {
+    * Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;
+}
