@@ -53,6 +53,7 @@ color: var(--text-color,#434455);
 
 .header {
     background-color: #FFFFFF;
+
 }
 .header-logo{
     color: var(--title-color,#2E2F42);
@@ -60,6 +61,7 @@ color: var(--text-color,#434455);
 .header-nav {
 }
 .header-list {
+
 }
 .heared-item {
 }
