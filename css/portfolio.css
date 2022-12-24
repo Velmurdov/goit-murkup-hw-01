@@ -24,7 +24,7 @@ ul {
 
 }
 
-.title {
+.portfolio-title {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -36,7 +36,7 @@ letter-spacing: 0.02em;
 color: var(--title-color,#2E2F42);
 }
 
-.text {
+.portfolio-text {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -89,22 +89,22 @@ color: var(--text-color,#434455);
 
 
 
-/*------------------ HERO --------------------*/
+/*------------------ Portfolio - HERO --------------------*/
 .hero-focus:focus,
 .hero-focus:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 }
 
-.hero {
+.portfolio-hero {
     background-color: #FFFFFF;
 }
-.hero-list {
+.portfolio-hero-list {
 }
-.hero-item {
+.portfolio-hero-item {
 }
 
-.hero-link {
+.portfolio-hero-link {
     
 }
 

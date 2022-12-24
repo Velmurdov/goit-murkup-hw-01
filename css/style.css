@@ -4,10 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 :root {
---email:#434455;
---title:#2E2F42;
---bilyi:#FFFFFF;
-
+    --first-title-color: #FFFFFF;
+  --title-color: #2E2F42 ;
+ --text-color: #434455;
+ --lh-title:1.2;
+ --lh-header-text:1.5;
 }
 .logo {
     font-family: 'Roboto';
@@ -37,52 +38,44 @@ ul {
 
  /*------------------ HEADER --------------------*/
 
-.header {
+
+ .header {
     background-color: #FFFFFF;
-} 
+}
+.header-logo{
+    color: var(--title-color,#2E2F42);
+}
 .header-nav {
 }
 .header-list {
 }
 .heared-item {
 }
-.header-link{
+.header-link {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 0.66;
-    /* identical to box height, or 150% */
-    
-    letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
-    color: #2E2F42;
-}
-.header-link:focus,
-.header-link:hover
-{
-color:#4D5AE5;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: var(--title-color,#2E2F42);
 }
 
-.header-contacts {
+.header-contacts{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: var(--lh-header-text);
 /* identical to box height, or 150% */
-
 letter-spacing: 0.02em;
-
 /* SLATE */
-color: #434455;
+color: var(--text-color,#434455);
 }
-.header-contacts:hover,
-.header-contacts:focus{
-    color: #4D5AE5;
-}
+
+
 
 /*------------------ HERO --------------------*/
 
@@ -248,40 +241,86 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-/*------------------ FOOTER --------------------*/
+/*------------------ PORTFOLIO - HERO --------------------*/
+.hero-focus:focus,
+.hero-focus:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
 
-.footer {
+.portfolio-hero {
+    background-color: #FFFFFF;
+}
+.portfolio-hero-list {
+}
+.portfolio-hero-item {
+}
+
+.portfolio-hero-link {
+    
+}
+
+/*------------------ APP --------------------*/
+.app{
+    background-color: #FFFFFF;}
+.app-list {
+}
+.app-item
+.app-title {
+}
+
+.app-text {
+}
+
+
+
+/*------------------ Marketing --------------------*/
+.marketing{
+    background-color: #FFFFFF;
+}
+.marketing-list {
+}
+.marketing-item {
+}
+.marketing-title {
+}
+
+.marketing-text {
+}
+
+
+/*------------------ DESIGN --------------------*/
+.design {
+    background-color: #FFFFFF;
+}
+.design-list {
+}
+.design-item {
+}
+.design-title {
+}
+
+.design-text {
+}
+
+
+/*------------------ FOOTER --------------------*/
+.footer{
     background-color: #2E2F42;
 }
-.footer-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 0.66;
-    /* identical to box height, or 150% */
-    
-    letter-spacing: 0.02em;
-    
-    color: #000000;
+.footer-link { 
+    color: var(--first-title-color) ;
 }
-.footer-link:hover,
-.footer-link:focus{
-    color: #4D5AE5;
-}
-.footer-title {
-    * Body */
 
-font-family: 'Roboto';
+.footer-text {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: var(--lh-header-text);
 /* or 150% */
-
 letter-spacing: 0.02em;
-
 /* CORNFLOWER */
-
 color: #E7E9FC;
+
 }
